@@ -1,0 +1,8 @@
+/.venv/
+*bkp*
+*.json
+*.zip
+*.pdf
+*.html
+.vscode
+.github
