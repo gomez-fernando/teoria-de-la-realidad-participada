@@ -15,3 +15,30 @@
     });
   }
 })();
+
+
+  const cta = document.querySelector('a.cta[href="#contenidos"]');
+  const target = document.getElementById('contenidos');
+  if (cta && target) {
+    const easeInOut = (t) => (t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2);
+    cta.addEventListener('click', (event) => {
+      event.preventDefault();
+      const start = window.scrollY;
+      const end = target.getBoundingClientRect().top + window.scrollY - 12;
+      const duration = 900;
+      let startTime = null;
+
+      const step = (timestamp) => {
+        if (!startTime) startTime = timestamp;
+        const elapsed = timestamp - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = easeInOut(progress);
+        window.scrollTo(0, start + (end - start) * eased);
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        }
+      };
+
+      window.requestAnimationFrame(step);
+    }, { passive: false });
+  }

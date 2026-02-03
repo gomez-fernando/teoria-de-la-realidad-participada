@@ -13,6 +13,16 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 body {
   margin: 0;
   color: var(--ink);
@@ -87,6 +97,7 @@ header {
   font-size: 0.75rem;
   color: var(--muted);
   margin-bottom: 10px;
+  margin-top: -6px;
 }
 
 h1 {
