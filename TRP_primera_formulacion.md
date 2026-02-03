@@ -324,13 +324,13 @@ sino por los errores que evita:
 La Teoría de la Realidad Participada
 no responde a la pregunta última.
 
-Enseña **cómo no falsearla**.
+Recuerda **cómo no falsearla**.
 
 Más allá de este punto,
 la palabra debe retirarse
 y dejar espacio a la experiencia.
 
-La TRP se presentará en dos libros. El primero es introductorio aunque rotundo; el segundo, más despojado o "unchained" como me gusta decir.
+La TRP se presentará en dos partes. La primera es introductorio aunque rotunda; la segunda, más despojada o "unchained" como me gusta decir.
 
-Ninguno cruza el umbral en lugar del lector: ese tránsito pertenece a la experiencia de cada persona. <br> 
+Ninguna cruza el umbral en lugar del lector: ese tránsito pertenece a la experiencia de cada persona. <br> 
 Cada ola toca la playa en el momento justo y vuelve al mar disuelta, irreconocible. 
