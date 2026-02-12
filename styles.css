@@ -67,6 +67,12 @@ body {
     margin-top: auto;
     align-self: flex-start;
   }
+
+  .epilogo {
+    width: min(75%, 520px);
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .home header.hero {
