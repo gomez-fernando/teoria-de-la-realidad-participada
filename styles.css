@@ -57,6 +57,16 @@ body {
     margin-top: 36px;
     row-gap: 28px;
   }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card a {
+    margin-top: auto;
+    align-self: flex-start;
+  }
 }
 
 .home header.hero {
